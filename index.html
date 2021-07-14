@@ -26,10 +26,16 @@
       src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
       data-auto-replace-svg="nest"
     ></script>
-
+    <script src="/clientJS/header.js"></script>
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main-first.css" />
-
+    <style>
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+    </style>
     <title>RidoBiko | Vehicle Attach</title>
   </head>
   <body>
@@ -82,7 +88,7 @@
       </div>
     </div>
     <!-- Second Header  -->
-    <div class="second-header-main">
+    <div class="second-header-main" id="fixedHeader">
       <div
         class="
           second-header
@@ -137,6 +143,7 @@
       </div>
     </div>
   </body>
+
   <script
     src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -152,4 +159,20 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"
   ></script>
+  <script>
+    window.onscroll = function () {
+      fixedHeader();
+    };
+
+    var header = document.getElementById("fixedHeader");
+    var sticky = header.offsetTop;
+
+    function fixedHeader() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+  </script>
 </html>
