@@ -63,3 +63,37 @@
 .cart-blog {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
+@media screen and (max-width: 1000px) {
+  .first-header {
+    flex-direction: column;
+  }
+  .second-ul {
+    justify-content: flex-end;
+  }
+  .first-ul {
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 780px) {
+  .first-header {
+    width: 100%;
+    max-width: 100% !important;
+  }
+  .first-ul {
+    flex-direction: column;
+  }
+  .second-header-main {
+    overflow-y: scroll;
+  }
+}
+@media screen and (max-width: 350px) {
+  .contact {
+    flex-direction: column;
+  }
+  .second-ul {
+    margin: 0;
+    padding: 0;
+  }
+}
