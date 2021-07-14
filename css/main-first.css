@@ -1,0 +1,6 @@
+.counts {
+  width: 100% !important;
+}
+.item {
+  flex-grow: 1;
+}
