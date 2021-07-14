@@ -1,6 +1,17 @@
-.counts {
+.bike-image {
   width: 100% !important;
 }
-.item {
-  flex-grow: 1;
+.counts {
+  margin: 2% 0%;
+}
+@media screen and (max-width: 780px) {
+  .counts {
+    flex-direction: column;
+  }
+  .bike-image {
+    height: 250px !important;
+  }
+  .item {
+    margin: 3% 0%;
+  }
 }
