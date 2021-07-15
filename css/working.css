@@ -6,7 +6,8 @@
 }
 .btn-invest {
   padding: 1% 1.5%;
-  background-color: tomato;
+  background-color: rgb(71, 74, 255);
+  color: white;
   border-radius: 10px;
   border: none;
   margin: 4%;
