@@ -21,7 +21,7 @@ input[type="number"] {
   color: white;
   border-radius: 10px;
   border: none;
-  margin: 4%;
+  margin: 6% 1%;
   font-size: 120%;
   cursor: pointer;
 }
