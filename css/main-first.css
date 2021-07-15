@@ -3,6 +3,10 @@
 }
 .counts {
   margin: 2% 0%;
+  padding: 0% 0% 2% 0%;
+}
+.main-first {
+  box-shadow: 0px 3px 10px rgba(153, 152, 152, 0.514);
 }
 @media screen and (max-width: 780px) {
   .counts {

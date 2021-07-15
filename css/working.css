@@ -1,0 +1,14 @@
+.working-header {
+  margin: 5%;
+}
+.invest {
+  font-size: 120%;
+}
+.btn-invest {
+  padding: 1% 1.5%;
+  background-color: tomato;
+  border-radius: 10px;
+  border: none;
+  margin: 4%;
+  font-size: 130%;
+}
