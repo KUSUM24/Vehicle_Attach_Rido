@@ -1,4 +1,4 @@
-setLocation = (e, status) => {
+const setLocation = (e, status) => {
   document.getElementById("popular").classList.remove("active");
   let locationContent = document.getElementById("location-content");
   if (status == "popular") {
