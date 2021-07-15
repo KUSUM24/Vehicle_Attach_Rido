@@ -76,3 +76,9 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 500px) {
+  .location-header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
