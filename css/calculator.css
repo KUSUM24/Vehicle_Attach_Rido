@@ -8,9 +8,11 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
-
+.calculator {
+  box-shadow: 1px 3px 10px rgba(153, 152, 152, 0.514);
+}
 .calculator-header {
-  margin: 5%;
+  padding: 5%;
 }
 .calculator-text {
   font-size: 120%;
@@ -27,7 +29,7 @@ input[type="number"] {
 }
 .calculator-footer {
   font-size: 140%;
-  margin: 1% 0% 10% 5%;
+  padding: 1% 0% 10% 5%;
 }
 .calculator-footer span {
   font-weight: 700;

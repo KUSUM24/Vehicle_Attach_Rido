@@ -65,13 +65,15 @@
   outline: none;
 }
 .money-image {
-  width: 30%;
+  width: 400px;
 }
 .question {
   margin: 1%;
 }
 .questions-heading {
   text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 .btn-questions {
   padding: 2.5% 10%;
@@ -93,10 +95,28 @@
   .heading-footer {
     text-align: center;
   }
+  .questions-heading {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .money-image {
+    width: 350px;
+  }
+  .question {
+    flex-direction: column;
+    margin: 5%;
+  }
 }
 @media screen and (max-width: 500px) {
   .location-header {
     flex-direction: column;
     align-items: center;
+  }
+  .questions-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .money-image {
+    width: 300px;
   }
 }
