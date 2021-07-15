@@ -1,0 +1,37 @@
+.calculator-header {
+  margin: 5%;
+}
+.calculator-text {
+  font-size: 120%;
+}
+.btn-calculator {
+  padding: 0.5% 2.5%;
+  background-color: rgb(71, 74, 255);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin: 4%;
+  font-size: 120%;
+}
+.calculator-footer {
+  font-size: 140%;
+  margin: 1% 0% 5% 5%;
+}
+.calculator-footer span {
+  font-weight: 700;
+}
+@media screen and (max-width: 500px) {
+  .dropdown-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .drop-item {
+    margin: 2%;
+  }
+  .calculator-footer {
+    font-size: 120%;
+  }
+  .calculator-footer {
+    margin: 5% 0% 10% 0%;
+  }
+}

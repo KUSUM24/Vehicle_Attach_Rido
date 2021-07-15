@@ -1,15 +1,15 @@
 .working-header {
   margin: 5%;
 }
-.invest {
+.working-text {
   font-size: 120%;
 }
-.btn-invest {
+.btn-working {
   padding: 1% 1.5%;
   background-color: rgb(71, 74, 255);
   color: white;
   border-radius: 10px;
   border: none;
   margin: 4%;
-  font-size: 130%;
+  font-size: 120%;
 }

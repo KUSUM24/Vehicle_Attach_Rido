@@ -47,6 +47,7 @@
 .second-header-main {
   background-color: #eb1e29;
   color: white;
+  z-index: 1000;
 }
 .second-header a {
   color: white;
