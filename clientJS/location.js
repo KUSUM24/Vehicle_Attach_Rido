@@ -1,4 +1,5 @@
 setLocation = (e, status) => {
+  document.getElementById("popular").classList.remove("active");
   let locationContent = document.getElementById("location-content");
   if (status == "popular") {
     // document.getElementById(status).classList.add("active");

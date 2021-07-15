@@ -1,12 +1,15 @@
+.working {
+  box-shadow: 1px 3px 10px rgba(153, 152, 152, 0.514);
+}
 .working-header {
-  margin: 5%;
+  padding: 5%;
 }
 .working-text {
   font-size: 120%;
 }
 .btn-working {
   padding: 1% 1.5%;
-  background-color: rgb(71, 74, 255);
+  background-color: rgb(36, 52, 100);
   color: white;
   border-radius: 10px;
   border: none;

@@ -27,6 +27,8 @@
       data-auto-replace-svg="nest"
     ></script>
     <script src="/clientJS/location.js"></script>
+    <script src="/clientJS/Initial.js"></script>
+
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main-first.css" />
     <link rel="stylesheet" href="./css/footer.css" />
@@ -42,7 +44,7 @@
     </style>
     <title>RidoBiko | Vehicle Attach</title>
   </head>
-  <body>
+  <body onload="getInitial()">
     <!-- First Header  -->
     <div class="first-header-main">
       <div class="first-header container d-flex justify-content-between">
@@ -186,8 +188,8 @@
       </div>
       <div class="dropdown-main d-flex justify-content-around">
           <div class="dropdown drop-item">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown button
+            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              City
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item" href="#">Action</a>
@@ -195,12 +197,12 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </div>
-        <div class="input drop-item">
-          <input type="number" placeholder="Amount to invest">
+        <div class="drop-item">
+          <input class="input" type="number" placeholder="Amount to invest">
         </div>
         <div class="dropdown drop-item">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
+          <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Type of Vehicle
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">Action</a>
@@ -209,8 +211,8 @@
           </div>
         </div>
         <div class="dropdown drop-item">
-          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
+          <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tenure
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="#">Action</a>
@@ -234,6 +236,27 @@
         </div>
       </div>
 
+    </div>
+
+    <!-- Questions -->
+
+    <div class="question d-flex justify-content-around align-items-center">
+      <div class="left-questions d-flex flex-column align-items-center">
+        <div class="questions-heading h1">
+          <div>
+
+            Still have a question related to
+          </div>
+          <div>
+            investment or returns?
+
+          </div>
+        </div>
+        <div class="btn-questions h4">
+          Call us @ 9971770131
+        </div>
+      </div>  
+      <img class="money-image" src="images/Money.png" alt="">
     </div>
 
     <!-- Footer -->
