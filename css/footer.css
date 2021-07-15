@@ -29,12 +29,6 @@
   padding-left: 0px;
   outline: none;
 }
-.copyright {
-  background-color: #eceef0;
-  text-align: center;
-  padding: 0.5%;
-  color: #6d7b8a;
-}
 .content-footer {
   margin: 15% 0%;
 }
@@ -43,6 +37,32 @@
 }
 .footer-item {
   margin: 2% 0%;
+}
+.location {
+  padding: 3% 5%;
+}
+.location-content {
+  padding: 2% 0%;
+}
+.copyright {
+  background-color: #eceef0;
+  text-align: center;
+  padding: 0.5%;
+  color: #6d7b8a;
+}
+.location button {
+  border: none;
+  background-color: transparent;
+}
+.location button.active {
+  border-bottom: 2px solid black;
+}
+.tab-link {
+  padding: 0% 1% 1% 1%;
+}
+.location button:focus {
+  border-bottom: 2px solid black;
+  outline: none;
 }
 @media screen and (max-width: 780px) {
   .footer {
