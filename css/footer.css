@@ -2,10 +2,57 @@
   background-color: #555555;
   color: white;
 }
-
+.content-footer span {
+  color: #dbdbdb;
+  cursor: pointer;
+}
+.content-footer span:hover {
+  color: white;
+}
+.email-input {
+  padding: 6px 7px;
+  width: 70%;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  color: black;
+  /* font-size: 10px; */
+}
+.submit-footer {
+  padding: 6px 7px;
+  width: 70px;
+  margin-top: 5px;
+  color: white;
+  background-color: #eb1e29;
+  border: none;
+  border-radius: 2px;
+  padding-left: 0px;
+  outline: none;
+}
 .copyright {
   background-color: #eceef0;
   text-align: center;
   padding: 0.5%;
   color: #6d7b8a;
+}
+.content-footer {
+  margin: 15% 0%;
+}
+.content-footer-submit {
+  margin: 8% 0%;
+}
+.footer-item {
+  margin: 2% 0%;
+}
+@media screen and (max-width: 780px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-footer {
+    align-items: center;
+  }
+  .heading-footer {
+    text-align: center;
+  }
 }
