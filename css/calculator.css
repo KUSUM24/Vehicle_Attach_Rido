@@ -60,6 +60,7 @@ input[type="number"] {
   }
   .drop-item {
     margin: 2%;
+    padding: 1%;
   }
   .calculator-footer {
     font-size: 120%;
