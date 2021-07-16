@@ -17,16 +17,21 @@ input[type="number"] {
 .calculator-text {
   font-size: 120%;
 }
-.btn-calculator {
+.btn {
   padding: 0.5% 2.5%;
-  background-color: rgb(36, 52, 100);
-  color: white;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   border: none;
   margin: 6% 1%;
   font-size: 120%;
   cursor: pointer;
 }
+/* .btn-calculator-2 {
+  background-color: #708090;
+  color: white;
+}
+.btn-calculator-1 {
+  background-color: rgb(0, 250, 154);
+} */
 .calculator-footer {
   font-size: 140%;
   padding: 1% 0% 10% 5%;
