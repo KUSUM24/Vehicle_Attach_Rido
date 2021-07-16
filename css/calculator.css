@@ -49,6 +49,10 @@ input[type="number"] {
 .input:focus {
   outline: none;
 }
+.dropdown {
+  border-radius: 10px;
+  border: 2px solid;
+}
 @media screen and (max-width: 500px) {
   .dropdown-main {
     flex-direction: column;
