@@ -30,7 +30,7 @@
   outline: none;
 }
 .content-footer {
-  margin: 15% 0% 5% 0%;
+  margin: 12% 0% 5% 0%;
 }
 .content-footer-submit {
   margin: 8% 0% 1% 0%;
@@ -84,6 +84,7 @@
   margin: 4%;
   cursor: pointer;
 }
+
 @media screen and (max-width: 780px) {
   .footer {
     flex-direction: column;
@@ -105,6 +106,18 @@
   .question {
     flex-direction: column;
     margin: 5%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .address {
+    margin: 15% 0% 0% 0%;
+  }
+  .two-pair {
+    flex-direction: column;
+    margin: 0% 0% 0% 0%;
+  }
+  .content-footer-submit {
+    margin: 8% 0% 8% 0%;
   }
 }
 @media screen and (max-width: 500px) {
