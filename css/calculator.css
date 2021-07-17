@@ -14,12 +14,14 @@ input[type="number"] {
 .calculator-header {
   padding: 5%;
 }
+.title {
+  text-decoration: underline #eb1e29;
+}
 .calculator-text {
   font-size: 120%;
 }
 .btn {
   padding: 0.5% 2.5%;
-  /* border-radius: 10px; */
   border: none;
   margin: 6% 1%;
   font-size: 120%;
@@ -32,16 +34,13 @@ input[type="number"] {
 .calculator-footer span {
   font-weight: 700;
 }
-.dropdown-toggle {
-  border: 2px solid black;
-  border-radius: 10px;
-}
+
 .input {
   border: none;
-  border-radius: 10px;
   font-size: 20px;
   padding: 6px;
   background-color: rgba(85, 84, 84, 0.432);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
 }
 .input::placeholder {
   color: black;
@@ -49,13 +48,11 @@ input[type="number"] {
 .input:focus {
   outline: none;
 }
-.dropdown {
-  border-radius: 10px;
-}
+
 .box select {
   background-color: rgba(85, 84, 84, 0.432);
   padding: 6px;
-  width: 200px;
+  width: 230px;
   border: none;
   font-size: 20px;
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
@@ -73,7 +70,9 @@ input[type="number"] {
   background-color: #eb1e29;
   color: white;
 }
-
+.drop-item {
+  margin: 10%;
+}
 @media screen and (max-width: 780px) {
   .dropdown-main {
     flex-direction: column;
