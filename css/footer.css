@@ -84,7 +84,12 @@
   margin: 4%;
   cursor: pointer;
 }
-
+.pair-1 {
+  width: 50%;
+}
+.pair-2 {
+  width: 75%;
+}
 @media screen and (max-width: 780px) {
   .footer {
     flex-direction: column;
@@ -110,14 +115,21 @@
 }
 @media screen and (max-width: 600px) {
   .address {
-    margin: 20% 0% 0% 0%;
+    margin: 10% 0% 0% 0%;
   }
   .two-pair {
     flex-direction: column;
     margin: 0% 0% 0% 0%;
+    width: 100% !important;
   }
   .content-footer-submit {
     margin: 8% 0% 8% 0%;
+  }
+  .pair-1 {
+    width: 100%;
+  }
+  .pair-2 {
+    width: 100%;
   }
 }
 @media screen and (max-width: 500px) {
@@ -131,5 +143,8 @@
   }
   .money-image {
     width: 300px;
+  }
+  .content-footer {
+    margin: 5% 0% 5% 0%;
   }
 }
