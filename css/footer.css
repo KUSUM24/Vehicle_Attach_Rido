@@ -112,7 +112,7 @@
   }
   .question {
     flex-direction: column;
-    margin: 5%;
+    padding: 5%;
   }
 }
 @media screen and (max-width: 600px) {

@@ -182,10 +182,10 @@
         </div>
       </div>
       <form class="text-center" action="">
-        <div class="dropdown-only d-flex justify-content-center">
+        <!-- <div class="dropdown-only d-flex justify-content-around"> -->
 
-        <div class="dropdown-main d-flex justify-content-around w-50 ">
-          <div class="dropdown-pair">
+        <div class="dropdown-main d-flex justify-content-around">
+          <!-- <div class="dropdown-pair"> -->
 
             <div class="drop-item">
               <input class="input" type="number" placeholder="Enter Amount to invest">
@@ -198,9 +198,9 @@
               <option value="3">Three</option>
             </select>
           </div>
-      </div>
+      <!-- </div> -->
 
-      <div class="dropdown-pair">
+      <!-- <div class="dropdown-pair"> -->
 
         <div class="box drop-item">
           <select class="form-select dropdown" aria-label="Default select example">
@@ -219,8 +219,8 @@
             <option value="3">Three</option>
           </select>
         </div>
-      </div>
-    </div>
+      <!-- </div> -->
+    <!-- </div> -->
 
       </div>
       <div class="buttons-calculator d-flex justify-content-center">
@@ -248,36 +248,39 @@
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" id="investModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="investModalLabel">Investment Form</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
               <div class="modal-body">
-                <form>
+                <form >
                   <div class="form-group">
-                    <label for="name">Email address</label>
+                    <label for="name">Name</label>
                     <input type="text" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="mobile">Mobile</label>
+                    <input type="number" class="form-control" id="mobile" placeholder="Enter Mobile">
                   </div>
                   <div class="form-group">
                     <label for="email">Email address</label>
                     <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
                   </div>
                   <div class="form-group">
-                    <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" placeholder="Password">
+                    <label for="city">City</label>
+                    <input type="text" class="form-control" id="city" aria-describedby="cityHelp" placeholder="Enter City">
                   </div>
-                  <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  <div class="form-group">
+                    <label for="Investment-amt">Investment Amount</label>
+                    <input type="number" class="form-control" id="Investment-amt" placeholder="Investment Amount">
                   </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-primary text-center">Submit Details</button>
+                  </div>
                 </form>
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary">Save changes</button>
-              </div>
+            
             </div>
           </div>
         </div>
