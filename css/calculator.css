@@ -28,7 +28,6 @@ input[type="number"] {
 
 .calculator-footer {
   font-size: 140%;
-  padding: 1% 0% 10% 5%;
 }
 .calculator-footer span {
   font-weight: 700;
@@ -90,6 +89,6 @@ input[type="number"] {
     font-size: 120%;
   }
   .calculator-footer {
-    margin: 5% 0% 10% 0%;
+    margin: 5% 0%;
   }
 }
