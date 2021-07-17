@@ -71,16 +71,12 @@ input[type="number"] {
   color: white;
 }
 .drop-item {
-  margin: 10%;
+  margin: 10% 0% 0% 0%;
 }
 @media screen and (max-width: 780px) {
   .dropdown-main {
     flex-direction: column;
     align-items: center;
-  }
-  .drop-item {
-    margin: 2%;
-    padding: 1%;
   }
 }
 @media screen and (max-width: 520px) {
