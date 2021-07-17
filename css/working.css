@@ -1,5 +1,6 @@
 .working {
   box-shadow: 1px 3px 10px rgba(153, 152, 152, 0.514);
+  background-color: rgba(246, 246, 246, 255);
 }
 .working-header {
   padding: 5%;

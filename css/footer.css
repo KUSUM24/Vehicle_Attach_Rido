@@ -45,10 +45,10 @@
   padding: 2% 0%;
 }
 .copyright {
-  background-color: #eceef0;
+  background-color: black;
   text-align: center;
-  padding: 0.5%;
-  color: #6d7b8a;
+  padding: 1%;
+  color: #a9adb3;
 }
 .location button {
   border: none;
@@ -68,7 +68,9 @@
   width: 400px;
 }
 .question {
-  margin: 1%;
+  padding: 1%;
+  background-color: rgba(246, 246, 246, 255);
+  background-color: rgb(240, 236, 236);
 }
 .questions-heading {
   text-align: center;
