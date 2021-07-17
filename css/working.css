@@ -8,12 +8,15 @@
 .working-text {
   font-size: 120%;
 }
-.btn-working {
+.btn-investment {
   padding: 1% 1.5%;
   background-color: rgb(0, 128, 128);
   color: white;
-  /* border-radius: 10px; */
   border: none;
   margin: 3%;
   font-size: 120%;
+  outline: none;
+}
+.btn-investment:focus {
+  outline: none;
 }

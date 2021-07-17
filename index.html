@@ -238,7 +238,7 @@
           On the investment of <span> Rs XXXX </span> for <span> XX Years </span> in <span> City </span> with <span>Type of vehicles </span> can give you <span> XX% </span> of return each year. In <span> XX Years </span>, You will receive <span> Rs XXXX </span>
         </div>
         <div class=" d-flex justify-content-center">
-          <button  type="button" class="btn-working" id="investment-btn"  data-toggle="modal" data-target="#investModal">
+          <button  type="button" class="btn-investment" id="investment-btn"  data-toggle="modal" data-target="#investModal">
             Start Investing
           </button>
         </div>
@@ -276,11 +276,29 @@
                     <input type="number" class="form-control" id="Investment-amt" placeholder="Investment Amount">
                   </div>
                   <div class="text-center">
-                    <button type="submit" class="btn btn-primary text-center">Submit Details</button>
+                    <button type="submit" class="btn btn-primary text-center" data-toggle="modal" data-target="#submitModal">Submit Details</button>
                   </div>
                 </form>
               </div>
-            
+              <div class="modal fade" id="submitModal" tabindex="1" role="dialog" aria-labelledby="submitModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="submitModalLabel">Modal title</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
