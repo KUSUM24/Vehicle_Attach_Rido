@@ -39,7 +39,7 @@ input[type="number"] {
   border: none;
   font-size: 20px;
   padding: 6px;
-  background-color: rgba(85, 84, 84, 0.432);
+  background-color: rgba(104, 101, 101, 0.301);
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
 }
 .input::placeholder {
@@ -50,7 +50,7 @@ input[type="number"] {
 }
 
 .box select {
-  background-color: rgba(85, 84, 84, 0.432);
+  background-color: rgba(104, 101, 101, 0.301);
   padding: 6px;
   width: 230px;
   border: none;
