@@ -18,7 +18,7 @@ input[type="number"] {
 .calculator-text {
   font-size: 120%;
 }
-.btn {
+.btn-cal {
   padding: 0.5% 2.5%;
   border: none;
   margin: 6% 1%;

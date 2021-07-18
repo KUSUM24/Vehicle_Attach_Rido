@@ -1,6 +1,12 @@
 .bike-image {
   width: 100% !important;
 }
+/* .image-div-main {
+  background-image: url(/images/Main_Bike.jpeg);
+  width: 100vw;
+  height: 398px;
+  background-size: cover;
+} */
 .counts {
   margin: 2% 0% 0% 0%;
   padding: 0% 0% 2% 0%;
@@ -11,6 +17,40 @@
 .item:hover {
   transform: scale(1.2);
 }
+.image-div-main .earn {
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+.earn-header {
+  font-size: 180%;
+}
+.earn-btn {
+  font-size: 110%;
+  padding: 4% 10%;
+  margin: 5% 0% !important;
+}
+@media screen and (max-width: 1000px) {
+  .image-div-main .earn {
+    top: 50%;
+  }
+  .earn-header {
+    font-size: 150%;
+  }
+  .earn-btn {
+    font-size: 90%;
+    padding: 3% 8%;
+    margin: 5% 0% !important;
+  }
+}
 @media screen and (max-width: 780px) {
   .counts {
     flex-direction: column;
@@ -20,5 +60,23 @@
   }
   .item {
     margin: 3% 0%;
+  }
+  .earn-header {
+    font-size: 100%;
+  }
+  .earn-btn {
+    font-size: 90%;
+    padding: 3% 8%;
+    margin: 5% 0% !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .earn-header {
+    font-size: 80%;
+  }
+  .earn-btn {
+    font-size: 80%;
+    padding: 2% 6%;
+    margin: 5% 0% !important;
   }
 }
