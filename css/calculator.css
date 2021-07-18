@@ -74,6 +74,9 @@ input[type="number"] {
 .drop-item {
   margin: 2% 0% 0% 0%;
 }
+#submitModal {
+  background-color: #eb1e29;
+}
 @media screen and (max-width: 1000px) {
   .dropdown-main {
     flex-direction: column;
