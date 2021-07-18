@@ -30,12 +30,13 @@
   cursor: pointer;
   text-align: center;
 }
+
 .earn-header {
   font-size: 180%;
 }
 .earn-btn {
   font-size: 110%;
-  padding: 4% 10%;
+  padding: 1% 3%;
   margin: 5% 0% !important;
 }
 @media screen and (max-width: 1000px) {
@@ -47,7 +48,6 @@
   }
   .earn-btn {
     font-size: 90%;
-    padding: 3% 8%;
     margin: 5% 0% !important;
   }
 }
@@ -66,7 +66,6 @@
   }
   .earn-btn {
     font-size: 90%;
-    padding: 3% 8%;
     margin: 5% 0% !important;
   }
 }
@@ -76,7 +75,6 @@
   }
   .earn-btn {
     font-size: 80%;
-    padding: 2% 6%;
     margin: 5% 0% !important;
   }
 }
