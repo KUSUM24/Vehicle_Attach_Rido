@@ -127,7 +127,7 @@
     <div class="main-first">
       <div class="image-div-main ">
         <img class="bike-image" src="images/Main_Bike.jpeg" alt="Error" />
-        <div class="earn">
+        <div class="earn" id="earn">
           <div class="earn-header ">Let your bike earn for you</div>
           <div class="earn-btn btn btn-warning m-0">Start Earning</div>
         </div>
@@ -250,7 +250,7 @@
         </div>
         
         <!-- Modal -->
-        
+
         <div class="modal fade" id="investModal" tabindex="-1" role="dialog" aria-labelledby="investModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -488,13 +488,16 @@
     };
 
     var header = document.getElementById("fixedHeader");
+    let earning = document.getElementById("earn")
     var sticky = header.offsetTop;
 
     function fixedHeader() {
       if (window.pageYOffset > sticky) {
         header.classList.add("sticky");
+        earning.classList.add("earn-scroll")
       } else {
         header.classList.remove("sticky");
+        earning.classList.remove("earn-scroll");
       }
     }
   </script>

@@ -19,7 +19,7 @@
 }
 .image-div-main .earn {
   position: absolute;
-  top: 60%;
+  top: 40%;
   left: 25%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -39,6 +39,10 @@
   padding: 1% 3%;
   margin: 5% 0% !important;
 }
+.image-div-main .earn-scroll {
+  position: absolute;
+  top: 30%;
+}
 @media screen and (max-width: 1000px) {
   .image-div-main .earn {
     top: 50%;
@@ -49,6 +53,10 @@
   .earn-btn {
     font-size: 90%;
     margin: 5% 0% !important;
+  }
+  .image-div-main .earn-scroll {
+    position: absolute;
+    top: 35%;
   }
 }
 @media screen and (max-width: 780px) {
@@ -76,5 +84,9 @@
   .earn-btn {
     font-size: 80%;
     margin: 5% 0% !important;
+  }
+  .image-div-main .earn {
+    left: 50%;
+    width: 100%;
   }
 }
