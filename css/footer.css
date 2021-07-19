@@ -71,7 +71,8 @@
 }
 .btn-questions {
   padding: 2.5% 10%;
-  background-color: rgb(36, 52, 100);
+  background-color: #eb1e29;
+  /* background-color: rgb(27, 27, 27); */
   color: white;
   border-radius: 10px;
   border: none;
