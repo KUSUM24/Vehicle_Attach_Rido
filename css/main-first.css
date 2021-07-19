@@ -28,7 +28,6 @@
   padding: 12px 24px;
   border: none;
   cursor: pointer;
-  /* text-align: center; */
 }
 
 .earn-header {
@@ -38,6 +37,7 @@
   font-size: 110%;
   padding: 4% 10%;
   margin: 5% 0% !important;
+  border-radius: 15px;
 }
 .image-div-main .earn-scroll {
   position: absolute;
