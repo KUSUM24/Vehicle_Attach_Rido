@@ -44,12 +44,6 @@
 .location-content {
   padding: 2% 0%;
 }
-.copyright {
-  background-color: black;
-  text-align: center;
-  padding: 1%;
-  color: #a9adb3;
-}
 .location button {
   border: none;
   background-color: transparent;
@@ -89,6 +83,12 @@
 }
 .pair-2 {
   width: 75%;
+}
+.copyright {
+  background-color: #eceef0;
+  text-align: center;
+  padding: 1%;
+  color: #808792;
 }
 @media screen and (max-width: 780px) {
   .footer {
