@@ -28,7 +28,7 @@
   padding: 12px 24px;
   border: none;
   cursor: pointer;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .earn-header {
