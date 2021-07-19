@@ -19,7 +19,7 @@
 }
 .image-div-main .earn {
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 25%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -45,7 +45,7 @@
 }
 @media screen and (max-width: 1000px) {
   .image-div-main .earn {
-    top: 45%;
+    top: 50%;
   }
   .earn-header {
     font-size: 150%;
@@ -61,7 +61,7 @@
 }
 @media screen and (max-width: 780px) {
   .image-div-main .earn {
-    top: 50%;
+    top: 52%;
   }
   .image-div-main .earn-scroll {
     top: 40%;
