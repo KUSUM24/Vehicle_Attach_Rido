@@ -64,6 +64,11 @@
 .cart-blog {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 @media screen and (max-width: 1000px) {
   .first-header {
     flex-direction: column;
@@ -76,11 +81,6 @@
     margin: 0;
     padding: 0;
   }
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 @media screen and (max-width: 780px) {
   .first-header {
