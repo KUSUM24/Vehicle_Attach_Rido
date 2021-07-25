@@ -41,3 +41,12 @@
 .invest-text {
   font-size: large;
 }
+@media screen and (max-width: 1000px) {
+  .invest-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .invest-div {
+    margin: 2% 0%;
+  }
+}
