@@ -33,9 +33,7 @@
   cursor: pointer;
   width: 550px;
 }
-.earn {
-  width: 550px;
-}
+
 .earn-header {
   font-size: 200%;
 }
@@ -52,6 +50,7 @@
 @media screen and (max-width: 1000px) {
   .image-div-main .earn {
     top: 50%;
+    width: 450px;
   }
   .earn-header {
     font-size: 150%;
@@ -64,13 +63,12 @@
     position: absolute;
     top: 35%;
   }
-  .earn {
-    width: 450px;
-  }
 }
 @media screen and (max-width: 780px) {
   .image-div-main .earn {
     top: 52%;
+    left: 30%;
+    width: 350px;
   }
   .image-div-main .earn-scroll {
     top: 40%;
@@ -84,9 +82,7 @@
   .item {
     margin: 3% 0%;
   }
-  .earn {
-    width: 350px;
-  }
+
   .earn-header {
     font-size: 100%;
   }
@@ -108,5 +104,10 @@
   .image-div-main .earn {
     left: 50%;
     width: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .image-div-main .earn {
+    top: 60%;
   }
 }
