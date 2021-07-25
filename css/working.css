@@ -20,3 +20,24 @@
 .btn-investment:focus {
   outline: none;
 }
+.invest-main {
+  padding: 0% 5% 5% 5%;
+}
+.invest-div {
+  background-color: #ffffff;
+  padding: 1%;
+  width: 250px;
+  text-align: center;
+  box-shadow: 1px 3px 15px rgba(153, 152, 152, 0.514);
+}
+.invest-img {
+  width: 150px;
+  height: 150px;
+  padding: 5% 0%;
+}
+.scooter {
+  width: 200px;
+}
+.invest-text {
+  font-size: large;
+}
