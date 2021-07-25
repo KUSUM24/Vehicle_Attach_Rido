@@ -66,12 +66,12 @@
 }
 @media screen and (max-width: 780px) {
   .image-div-main .earn {
-    top: 52%;
+    top: 25%;
     left: 30%;
     width: 350px;
   }
   .image-div-main .earn-scroll {
-    top: 40%;
+    top: 20%;
   }
   .counts {
     flex-direction: column;
@@ -102,6 +102,7 @@
     padding: 3% 6%;
   }
   .image-div-main .earn {
+    top: 35%;
     left: 50%;
     width: 100%;
   }
